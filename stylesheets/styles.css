@@ -53,6 +53,17 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
+h3{
+    margin: 0 0 5px;
+}
+
+a.jobLink:link, a.jobLink:visited, a.jobLink:active {
+    color: #727272;
+}
+
+a.jobLink:hover {
+    color: #006699;
+}
 
 body {
   background-color: #fff;
@@ -62,7 +73,7 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
 }
